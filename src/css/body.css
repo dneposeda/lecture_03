@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* -- Base -- */
+body {
+    color: #fc4300;
+    background-color: #ccc;
+    font-size: 25px;
+    width: 500px;
+    margin: 0 auto;
+
+}

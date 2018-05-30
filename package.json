@@ -1,0 +1,33 @@
+{
+  "name": "wbp-cfg",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serv": "node server.js",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dneposeda/lecture_03.git"
+  },
+  "author": "Denis Tivikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dneposeda/lecture_03/issues"
+  },
+  "homepage": "https://github.com/dneposeda/lecture_03#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-static": "^0.7.10",
+    "path": "^0.12.7",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.10.1",
+    "webpack-cli": "^2.1.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1",
+  }
+}
